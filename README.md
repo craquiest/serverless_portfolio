@@ -1,10 +1,14 @@
 # Lamine's portfolio
 
-This is my web-portfolio project. 
+This is my web-portfolio project.   
 It uses AWS and ReactJS. 
 
 ## Technologies used
 
-Brew
-Git and github
-SSH (ssh-keygen -C, ssh-add)
+Brew  
+Git and github  
+SSH (ssh-keygen -C, ssh-add)  
+HTML  
+CSS  
+Font Awesome  
+Google Fonts  

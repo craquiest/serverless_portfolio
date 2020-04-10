@@ -1,5 +1,6 @@
 cmd/
 slides/
+.vscode/
 
 # Logs
 logs
