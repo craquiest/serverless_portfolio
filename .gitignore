@@ -1,5 +1,5 @@
-cmd/
-slides/
+_cmd/
+_slides/
 .vscode/
 
 # Logs

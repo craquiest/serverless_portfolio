@@ -1,0 +1,13 @@
+version: 0.1
+
+phases: 
+    build:
+        commands:
+            - echo Nothing to do yet
+artifacts:
+    files:
+        - index.html
+        - favicon.ico
+        - Amadou_Lamine_Gaye_CV_wsm.pdf
+        - styles/*
+        - images/*
