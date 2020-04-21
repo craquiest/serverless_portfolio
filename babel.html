@@ -12,7 +12,6 @@
             margin: 1em;
             padding: 2em;
         }
-
         .errorBox--hidden {
             display: none;
         }
@@ -37,30 +36,25 @@
 
         const getMessage = (name) => `Welcome to Javascript, ${name}!`;
         const button = document.getElementById('submit_info');
+        
         const messageArea = document.getElementById("error");
         const contentArea = document.getElementById("content");
 
         button.addEventListener("click", (evt) => {
             messageArea.className = "errorBox--hidden";
             contentArea.textContent = "";
-
             let name = document.getElementById("name").value;
 
             if (name.length < 2) {
                 // alert("You need to enter a name");
                 messageArea.textContent = "You need to enter a name";
-                messageArea.className = "errorBox"
+                messageArea.className = "errorBox";
             } else {
                 contentArea.textContent = getMessage(name);
-
             }
-
         });
 
-
-
     </script>
-
 </body>
 
 </html>
