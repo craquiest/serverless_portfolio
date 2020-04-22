@@ -1,3 +1,5 @@
+dist/
+
 _cmd/
 _slides/
 .vscode/

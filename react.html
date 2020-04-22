@@ -63,8 +63,8 @@
 
                 this.setState({
                     message: {
-                        type: name > 1 ? "success" : "error",
-                        body: name > 1 ? "Welcome to React, " + name : "You must enter a name"
+                        type: name ? "success" : "error",
+                        body: name ? "Welcome to React, " + name : "You must enter a name"
                     }
                 });
             }
@@ -135,6 +135,10 @@
                 let button = document.querySelector("#inputButton");
                 button.click();
                 assert.include(msgBox.classList.value, "error", "Message box type is error.");
+
+                // document.querySelector("input").value = "Lamine";
+                // button.click();
+                // assert.include(msgBox.classList.value, "success", "Message box type is success.");
             });
         });
 
